@@ -1,0 +1,10 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
+  Performing 3 actions (4 in parallel)
+  OpenDoor.cpp
+  [2/3] Link UE4Editor-EscapeRoom-175.dll
+  [3/3] Link UE4Editor-EscapeRoom-175.lib
+     Creating library C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-175.lib and object C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-175.exp
+     Creating library C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-175.suppressed.lib and object C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-175.suppressed.exp
+  Deploying EscapeRoomEditor Win64 Development...
+  Total build time: 6.07 seconds (Local executor: 4.83 seconds)
