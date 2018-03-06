@@ -1,0 +1,15 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\ProjectFiles\EscapeRoom.vcxproj]
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
+  Parsing headers for EscapeRoomEditor
+    Running UnrealHeaderTool "C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\EscapeRoom.uproject" "C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for EscapeRoomEditor in 6.3205777 seconds
+  Performing 4 actions (4 in parallel)
+  Grabber.gen.cpp
+  Grabber.cpp
+  [3/4] Link UE4Editor-EscapeRoom-4513.dll
+  [4/4] Link UE4Editor-EscapeRoom-4513.lib
+     Creating library C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4513.lib and object C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4513.exp
+     Creating library C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4513.suppressed.lib and object C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-4513.suppressed.exp
+  Deploying EscapeRoomEditor Win64 Development...
+  Total build time: 8.50 seconds (Local executor: 1.11 seconds)

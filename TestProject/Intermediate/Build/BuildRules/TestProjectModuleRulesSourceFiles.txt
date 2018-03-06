@@ -1,0 +1,3 @@
+C:\Users\lol\Documents\Git\EscapeRoom\TestProject\Source\TestProject\TestProject.Build.cs
+C:\Users\lol\Documents\Git\EscapeRoom\TestProject\Source\TestProject.Target.cs
+C:\Users\lol\Documents\Git\EscapeRoom\TestProject\Source\TestProjectEditor.Target.cs
