@@ -1,16 +1,7 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\ProjectFiles\EscapeRoom.vcxproj]
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading EscapeRoomEditor (modules to compile have changed)
   Compiling game modules for hot reload
-  Parsing headers for EscapeRoomEditor
-    Running UnrealHeaderTool "C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\EscapeRoom.uproject" "C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\EscapeRoomEditor\Development\EscapeRoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for EscapeRoomEditor in 10.4633201 seconds
-  Performing 4 actions (4 in parallel)
-  Grabber.gen.cpp
-  Grabber.cpp
-C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Source\EscapeRoom\Grabber.cpp(64): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-  C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(89): note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
-  [3/4] Link UE4Editor-EscapeRoom-9353.dll
-  [4/4] Link UE4Editor-EscapeRoom-9353.lib
-     Creating library C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-9353.lib and object C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-9353.exp
-     Creating library C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-9353.suppressed.lib and object C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeRoom-9353.suppressed.exp
+  Target is up to date
   Deploying EscapeRoomEditor Win64 Development...
-  Total build time: 14.62 seconds (Local executor: 1.72 seconds)
+  Total build time: 4.30 seconds (NoActionsToExecute executor: 0.00 seconds)

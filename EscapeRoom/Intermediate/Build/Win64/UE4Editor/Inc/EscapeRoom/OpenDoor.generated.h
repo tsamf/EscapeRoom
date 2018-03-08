@@ -13,9 +13,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ESCAPEROOM_OpenDoor_generated_h
 
-#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_RPC_WRAPPERS
-#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_INCLASS_NO_PURE_DECLS \
+#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_11_DELEGATE \
+static inline void FDoorEvent_DelegateWrapper(const FMulticastScriptDelegate& DoorEvent) \
+{ \
+	DoorEvent.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
+#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_RPC_WRAPPERS
+#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUOpenDoor(); \
 	friend ESCAPEROOM_API class UClass* Z_Construct_UClass_UOpenDoor(); \
@@ -25,7 +32,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_INCLASS \
+#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesUOpenDoor(); \
 	friend ESCAPEROOM_API class UClass* Z_Construct_UClass_UOpenDoor(); \
@@ -35,7 +42,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_STANDARD_CONSTRUCTORS \
+#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOpenDoor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOpenDoor) \
@@ -48,7 +55,7 @@ private: \
 public:
 
 
-#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_ENHANCED_CONSTRUCTORS \
+#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UOpenDoor(UOpenDoor&&); \
@@ -59,32 +66,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UOpenDoor)
 
 
-#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__OpenAngle() { return STRUCT_OFFSET(UOpenDoor, OpenAngle); } \
+#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UOpenDoor, PressurePlate); } \
-	FORCEINLINE static uint32 __PPO__ActorThatOpens() { return STRUCT_OFFSET(UOpenDoor, ActorThatOpens); } \
-	FORCEINLINE static uint32 __PPO__DoorCloseDelay() { return STRUCT_OFFSET(UOpenDoor, DoorCloseDelay); }
+	FORCEINLINE static uint32 __PPO__TriggerMass() { return STRUCT_OFFSET(UOpenDoor, TriggerMass); }
 
 
-#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_12_PROLOG
-#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_GENERATED_BODY_LEGACY \
+#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_13_PROLOG
+#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
-	EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_RPC_WRAPPERS \
-	EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_INCLASS \
-	EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_STANDARD_CONSTRUCTORS \
+	EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_PRIVATE_PROPERTY_OFFSET \
+	EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_RPC_WRAPPERS \
+	EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_INCLASS \
+	EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_GENERATED_BODY \
+#define EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
-	EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_INCLASS_NO_PURE_DECLS \
-	EscapeRoom_Source_EscapeRoom_OpenDoor_h_15_ENHANCED_CONSTRUCTORS \
+	EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_PRIVATE_PROPERTY_OFFSET \
+	EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_INCLASS_NO_PURE_DECLS \
+	EscapeRoom_Source_EscapeRoom_OpenDoor_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

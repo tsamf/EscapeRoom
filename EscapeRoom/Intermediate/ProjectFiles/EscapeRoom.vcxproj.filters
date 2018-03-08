@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<None Include="..\..\EscapeRoom.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{262FEC90-25B7-4875-AC3C-495C045DE3F9}</UniqueIdentifier>
+			<UniqueIdentifier>{736A6BFB-9FE9-432C-A22D-FE72F376E65A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\EscapeRoom.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{CBD109F9-5D6D-44EB-B01D-B62083A8B186}</UniqueIdentifier>
+			<UniqueIdentifier>{C5924764-2C14-4C54-91A3-11606D8C0D19}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\EscapeRoom">
-			<UniqueIdentifier>{1C7055C3-F57A-428B-8F71-5E12A0B302DA}</UniqueIdentifier>
+			<UniqueIdentifier>{E9CBFF01-3B90-40D6-99DA-7C387A6E6F20}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\EscapeRoom\EscapeRoom.Build.cs">
 			<Filter>Source\EscapeRoom</Filter>

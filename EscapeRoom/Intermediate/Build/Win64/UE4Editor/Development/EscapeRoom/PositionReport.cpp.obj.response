@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Source
-/I C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom
-/I C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Source\EscapeRoom
+/I C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Source
+/I C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom
+/I C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Source\EscapeRoom
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -359,9 +359,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Source\EscapeRoom\PositionReport.cpp"
-/FI"C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h"
-/Fo"C:\Users\samfo\Documents\GitHub\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\PositionReport.cpp.obj"
+"C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Source\EscapeRoom\PositionReport.cpp"
+/FI"C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h"
+/Fo"C:\Users\lol\Documents\Git\EscapeRoom\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\PositionReport.cpp.obj"
 /TP
 /GR-
 /W4
